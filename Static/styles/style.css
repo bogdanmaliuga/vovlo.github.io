@@ -1,0 +1,428 @@
+.pdp-hero .hero-content-box .hero-ctas .button,
+.hero-content-box-text p {
+	font-family: Arial !important;
+}
+
+.col-2,
+.col-3,
+.col-5,
+.col-6 {
+	display: inline-block;
+	vertical-align: middle;
+}
+.col-2 {width: 24.5%;}
+.col-3 {width: 33%;}
+.col-6 {width: 66%;}
+.col-5 {width: 48.5%;}
+.col-12 {width: 100%;}
+.left {
+	text-align: left !important;
+}
+.right {
+	text-align: right !important;
+}
+.center {
+	text-align: center !important;
+}
+.pad-right {
+	padding-right: 2em;
+}
+.nav-list a {
+	font-size: 1.1em;
+	/* letter-spacing: 0; */
+}
+.firm-font {
+	font-family: "Volvo Broad" !important;
+}
+.spam-line,
+.actions-block,
+.icons-block,
+.icons-block .container {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.actions-block h3,
+.icons-block .col-2 {
+	text-align: center;
+}
+.icons-block {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #5E5E5E;
+    /* background-image: url("../images/icons/serv-bg.png"); */
+    background-origin: padding-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    text-align: center;
+	color: #fff;
+}
+.icons-block p {
+	max-width: 100%;
+}
+.spam-line a,
+.actions-block a,
+.icons-block a svg path,
+.icons-block a svg,
+.icons-block a {
+	text-decoration: none;
+	border: none;
+	transition: all 0.4s ease 0s;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	color: #fff;
+}
+.icons-block a svg path {
+    fill: #fff;
+}
+.icons-block a:hover,
+.icons-block a:hover svg path {
+	/*
+	color: #ff7275 !important;
+    fill: #ff7275 !important;
+	*/
+	color: #003057 !important;
+    fill: #003057 !important;
+}
+.spam-line input,
+.actions-block {
+	background-color: #ECECEC;
+	color: #333;
+}
+.actions-block a {
+	color: #333;
+	border: 1px solid #aaa;
+    display: inline-block;
+	background: #fff;
+	overflow: hidden;
+}
+.actions-block a:hover {
+	background: #ddd;
+}
+.clearlinks a,
+.actions-block .bordered a {
+	color: #333;
+	border: none;
+    display: inline-block;
+	background: transparent;
+	text-decoration: underline;
+}
+.icons-block h3,
+.actions-block h3{
+	font-size: 3em;
+	letter-spacing: 2px;
+	font-weight: 100;
+	line-height: 1em;
+}
+.actions-block h4{
+	height: auto;
+}
+.actions-block p,
+.actions-block h4{
+	letter-spacing: 0;
+	padding-left: 1em;
+	padding-right: 1em;
+	max-height: 50px;
+}
+h3.firm-font.left{
+	padding-left: 0.4em;
+	margin-top: 0;
+}
+
+.action-text p {
+	text-align: left;
+}
+.action-text ul {
+	text-align: left;
+	list-style: circle;
+	margin-left: 2em;
+	margin-bottom: 2em;
+}
+a[rel="submit"],
+a[rel="submit"] i,
+.footer-socials a i {
+	font-family: FontAwesome !important;
+	text-decoration: none;
+	border-bottom: none;
+}
+ input[type="email"], input[type="text"] {
+	margin-bottom: 0;
+}
+label.mfInput {
+	margin-bottom: 1em;
+	width: 100%;
+}
+.gray-line {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: block;
+    height: 70px;
+    position: fixed;
+    top: 70px;
+    width: 100%;
+	padding-top: 0.7em;
+	color: #fff;
+    z-index: 2;
+	font-family: 'Volvo Sans Regular', Arial;
+}
+.gray-line header {
+	font-size: 2.5em;
+}
+.footer_phone {
+	font-size: 1.5em;
+}
+.spam-line {
+	background-color: rgba(0, 0, 0, 0.6);
+    display: block;
+    width: 100%;
+	color: #fff;
+	text-align: center;
+}
+a.button.button-small.button-light.js-scroll-top {
+    width: 100%;
+    margin: 0 auto;
+}
+.spam-line input[type="text"] {
+	display: inline-block;
+	width: 85%;
+}
+#subscribe {
+	width: 70%;
+
+    margin: 0 auto;
+}
+.mfInfo {float: left;}
+.form-subscribe .mfInfo,
+.form-subscribe .mfProgress {
+  position: fixed;
+  left: 15px;
+  bottom: 15px;
+  padding: 17px;
+  height: 54px;
+  color: #FFF;
+  background: #111;
+  border-radius: 3px;
+  line-height: 20px;
+  font-size: 13px;
+  transition: .3s all ease;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(83px);
+  transform: translateY(83px);
+  z-index: 999;
+}
+.form-subscribe .mfInfo .loader,
+.form-subscribe .mfProgress .loader {
+  display: inline-block;
+  position: relative;
+  margin-right: 16px;
+}
+.form-subscribe .mfInfo .loader, .form-subscribe .mfInfo .loader:before, .form-subscribe .mfInfo .loader:after,
+.form-subscribe .mfProgress .loader,
+.form-subscribe .mfProgress .loader:before,
+.form-subscribe .mfProgress .loader:after {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+}
+.form-subscribe .mfInfo .loader:before, .form-subscribe .mfInfo .loader:after,
+.form-subscribe .mfProgress .loader:before,
+.form-subscribe .mfProgress .loader:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.form-subscribe .mfInfo .loader:before,
+.form-subscribe .mfProgress .loader:before {
+  -webkit-animation: mfLoader 1.1s infinite linear;
+  animation: mfLoader 1.1s infinite linear;
+  border: 2px solid #FFF;
+  border-top-color: transparent;
+  border-radius: 50%;
+  opacity: 1;
+  visibility: visible;
+  transition: .3s all ease;
+}
+.form-subscribe .mfInfo .loader:after,
+.form-subscribe .mfProgress .loader:after {
+  opacity: 0;
+  visibility: hidden;
+  font-weight: 400;
+  font-family: "FontAwesome";
+  font-size: 20px;
+  transition: .6s all ease;
+  -webkit-transform: rotate(-90deg) scale(0);
+  transform: rotate(-90deg) scale(0);
+}
+.form-subscribe .mfInfo.fail,
+.form-subscribe .mfProgress.fail {
+  background: #F34234;
+}
+.form-subscribe .mfInfo.fail .loader:after,
+.form-subscribe .mfProgress.fail .loader:after {
+  content: '\f00d';
+}
+.form-subscribe .mfInfo.success,
+.form-subscribe .mfProgress.success {
+  background: #2E7D32;
+}
+.form-subscribe .mfInfo.success .loader:after,
+.form-subscribe .mfProgress.success .loader:after {
+  content: '\f00c';
+}
+.form-subscribe .mfInfo.fail .loader:before, .form-subscribe .mfInfo.success .loader:before,
+.form-subscribe .mfProgress.fail .loader:before,
+.form-subscribe .mfProgress.success .loader:before {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+.form-subscribe .mfInfo.fail .loader:after, .form-subscribe .mfInfo.success .loader:after,
+.form-subscribe .mfProgress.fail .loader:after,
+.form-subscribe .mfProgress.success .loader:after {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: rotate(0deg) scale(1);
+  transform: rotate(0deg) scale(1);
+}
+.form-subscribe .mfInfo.fail, .form-subscribe .mfInfo.success, .form-subscribe .mfInfo.sending,
+.form-subscribe .mfProgress.fail,
+.form-subscribe .mfProgress.success,
+.form-subscribe .mfProgress.sending {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.mfValidation.show.error {
+	font-weight: 400;
+	font-size: 10px;
+	color: red;
+    right: 10px;
+}
+#contact .mfValidation.show.error {
+	/* position: absolute; */
+}
+.button,
+#contact1 a[rel="submit"],
+#contact a[rel="submit"] {
+	width: 92%;
+	border: 1px solid #999;
+	display: block;
+
+  padding: 10px;
+  border-radius: 5px;
+  line-height: 20px;
+  font-size: 13px;
+  font-family: Arial !important;
+}
+
+.action-text .button {
+	width: 25%;
+	border: 1px solid #999 !important;
+}
+.action-text .button:hover {
+	background-color: #999 !important;
+}
+.bordered {
+	border: 1px solid #999;
+}
+.contacts div.col-3 .bordered{
+	min-height: 22em;
+}
+.contacts p{
+	font-family: Arial;
+	font-size: 1.2em;
+}
+.contacts p.x2{
+	font-size: 1.7em;
+}
+.mfValidation.hide {
+	display: none;
+}
+#contact fieldset {
+	padding: 1em;
+}
+#window_title {
+	font-size: 1.5em;
+	margin-bottom: 1.2em;
+}
+.popup-universal-block_new select,
+.popup-universal-block_new input {
+    border-radius: 5px;
+    float: left;
+	left: 0 !important;
+    font-size: 15px;
+    height: 48px !important;
+    margin-bottom: 20px;
+    margin-right: 7px;
+    outline: medium none;
+    padding-left: 10px;
+	border: 1px solid #999;
+	position: relative !important;
+	opacity: 1 !important;
+}
+.popup-universal-block_new label {
+    float: left;
+    width: 46%;
+	height: 5em;
+}
+.popup-universal-block_new label:first-child,
+.popup-universal-block_new label:nth-child(3) {
+    margin-right: 24px;
+}
+.popup-universal-block_new label.white {
+	color: #fff;
+}
+#cboxTitle {
+	text-align: left !important;
+	font-size: 11px !important;
+	line-height: 1.5em;
+	color: #333;
+}
+#cboxClose {
+	bottom: none !important;
+	top: 0;
+}
+#cboxOverlay {
+	background: rgba(0, 0, 0, 0.9) !important;
+}
+.actions-block img {
+	opacity: 1;
+	-webkit-opacity: 1;
+	transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	width: 100%;
+	height: auto;
+}
+.actions-block img:hover {
+	opacity: 1;
+	-webkit-opacity: 1;
+	/* transform: rotate(-3deg); */
+}
+ul.list {
+	list-style: circle;
+	text-align: left;
+	margin-left: 3em;
+	margin-bottom: 2em;
+}
+ol.list {
+	list-style: numeric;
+	text-align: left;
+	margin-left: 3em;
+	margin-bottom: 2em;
+}
+.pdp-hero-group.pdp-hero-group-has-3.component {
+	top: 46px;
+}
+.x2 {
+	font-size: 1.2em;
+}
+.bottom-margin {
+	margin-bottom: 0.5em;
+}
+
+@font-face{font-family:volvo-icons;src:url(../fonts/volvo-icons/volvo-icons.eot?v=220);src:url(../fonts/volvo-icons/volvo-icons.eot?v=220#iefix) format("eot"),url(../fonts/volvo-icons/volvo-icons.woff?v=220) format("woff"),url(../fonts/volvo-icons/volvo-icons.ttf?v=220) format("truetype")}
+.icon{font-family:volvo-icons!important;font-weight:400;text-decoration:none;text-transform:none}.icon-angle-down:before{content:""}.icon-angle-left:before{content:""}.icon-angle-right:before{content:""}.icon-angle-up:before{content:""}.icon-angle_down:before{content:""}.icon-angle_left:before{content:""}.icon-angle_right:before{content:""}.icon-angle_up:before{content:""}.icon-arrow:before{content:""}.icon-blog:before{content:""}.icon-blogger:before{content:""}.icon-buildyourown:before{content:""}.icon-buildyourown_large:before{content:""}.icon-calendar:before{content:""}.icon-car:before,.icon-new_car_inventory:before{content:""}.icon-checkmark:before{content:""}.icon-circle-open:before{content:""}.icon-circle:before{content:""}.icon-clock:before,.icon-schedule_service:before{content:""}.icon-close:before{content:""}.icon-cloud:before{content:""}.icon-companycar_large:before{content:""}.icon-compass:before{content:""}.icon-dajie:before{content:""}.icon-dashboard:before{content:""}.icon-deleteinput:before{content:""}.icon-douban:before{content:""}.icon-email-alt:before{content:""}.icon-email:before{content:""}.icon-email_large:before{content:""}.icon-emergencyhelp:before{content:""}.icon-emission:before{content:""}.icon-emission_large:before{content:""}.icon-excellenthandling:before{content:""}.icon-excellenthandling_large:before{content:""}.icon-facebook-alt:before{content:""}.icon-facebook:before{content:""}.icon-filter:before{content:""}.icon-finance:before{content:""}.icon-finance_large:before{content:""}.icon-fleetservice:before{content:""}.icon-fleetservice_large:before{content:""}.icon-fullscreen:before{content:""}.icon-getdirections:before{content:""}.icon-globe-blue:before,.icon-globe:before{content:""}.icon-googleplus:before{content:""}.icon-instagram:before{content:""}.icon-insurance:before{content:""}.icon-insurance_large:before{content:""}.icon-interior:before{content:""}.icon-interior_seat:before{content:""}.icon-linkedin:before{content:""}.icon-list:before{content:""}.icon-listview:before{content:""}.icon-login:before{content:""}.icon-mail:before{content:""}.icon-map-alt:before{content:""}.icon-map-alternate:before{content:""}.icon-map:before{content:""}.icon-mappin:before{content:""}.icon-mappin_checkmark:before{content:""}.icon-mappin_filled:before{content:""}.icon-mappin_fullyfilled:before{content:""}.icon-marker:before{content:""}.icon-marketselector:before{content:""}.icon-menu:before{content:""}.icon-minus:before{content:""}.icon-myvolvo:before{content:""}.icon-newsletter:before{content:""}.icon-newsletter_large:before{content:""}.icon-notebook:before{content:""}.icon-offer:before{content:""}.icon-offers_large:before{content:""}.icon-overlay:before{content:""}.icon-ownersmanual:before{content:""}.icon-ownersmanual_large:before{content:""}.icon-pinterest:before{content:""}.icon-plus:before{content:""}.icon-plus_circle:before{content:""}.icon-print:before{content:""}.icon-print_large:before{content:""}.icon-rain:before{content:""}.icon-reload:before{content:""}.icon-requestaquote:before{content:""}.icon-requestaquote_large:before{content:""}.icon-local_offers:before,.icon-requestquote-alt:before{content:""}.icon-requestquote:before{content:""}.icon-road:before{content:""}.icon-roadsideassistance:before{content:""}.icon-roadsideassistance_large:before{content:""}.icon-search:before{content:""}.icon-security:before{content:""}.icon-security_large:before{content:""}.icon-settings:before{content:""}.icon-smartphone:before{content:""}.icon-smartphone_large:before{content:""}.icon-snow:before{content:""}.icon-star:before{content:""}.icon-df:before,.icon-steeringwheel:before{content:""}.icon-sunshine:before{content:""}.icon-support:before{content:""}.icon-support_large:before{content:""}.icon-twitter:before{content:""}.icon-viewwebsite:before{content:""}.icon-vkontakte:before{content:""}.icon-warningtriangle:before{content:""}.icon-website:before{content:""}.icon-wechat:before{content:""}.icon-weibo:before{content:""}.icon-wifi:before{content:""}.icon-wifi_large:before{content:""}.icon-youku:before{content:""}.icon-youtube:before{content:""}.icon-z_download:before{content:""}.icon-globe-blue:before{position:relative;bottom:-2px;color:#bdd6e6}.icon-youku{font-size:13px}

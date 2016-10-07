@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'Volvo Broad';
+	src: url('../fonts/volvo/VolvoBroadPro.eot');
+	src: local('☺'), url('../fonts/volvo/VolvoBroadPro.woff') format('woff'), url('../fonts/volvo/VolvoBroadPro.ttf') format('truetype'), url('../fonts/volvo/VolvoBroadPro.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	/* font-family: 'Volvo Sans Regular'; */
+	font-family: 'VolvoSansPro-Regular';
+	src: url('../fonts/volvo/VolvoSansPro-Regular.eot');
+	src: local('☺'), url('../fonts/volvo/VolvoSansPro-Regular.woff') format('woff'), url('../fonts/volvo/VolvoSansPro-Regular.ttf') format('truetype'), url('../fonts/volvo/VolvoSansPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Volvo Sans Medium';
+	src: url('../fonts/volvo/VolvoSansWebMedium.eot');
+	src: local('☺'), url('../fonts/volvo/VolvoSansWebMedium.woff') format('woff'), url('../fonts/volvo/VolvoSansWebMedium.ttf') format('truetype'), url('../fonts/volvo/VolvoSansWebMedium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
