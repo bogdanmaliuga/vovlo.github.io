@@ -1,0 +1,91 @@
+a:hover{
+  text-decoration: none!important;
+}
+@media screen and (max-width:767px) {
+  .hero-content-box.left-align .hero-title-box h1 {
+    text-align: left;
+}
+  .pdp-hero-group .pdp-hero .hero-content-box.right-align {
+    padding: 15% 3.7% 10%;
+text-align: right;;
+float: right;
+  }
+  .pdp-hero-group .pdp-hero .hero-content-box.left-align {
+    padding: 15% 3.7% 10%;
+text-align: left;;
+float: left;
+  }
+
+  .pdp-hero-group h1{
+    font-size: 30px!important;
+    line-height: 30px!important;
+  }
+  .footer .col-xs-12{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .footer .col-xs-12 .left{
+    text-align: center!important;
+  }
+  .footer .col-xs-12 .right{
+    text-align: center!important
+  }
+  .actions-block a{
+    max-width: 350px;
+  }
+  .active-block a{
+    display: block!important;
+    margin: 0 auto;
+  }
+  .icons-block .col-xs-6{
+    height: 125px;
+  }
+}
+@media screen and (max-width:992px){
+  .actions-block a{
+    max-width: 400px;
+    display: block!important;
+    margin: 10px auto;
+
+  }
+}
+@media screen and (min-width:539px) and (max-width:769px) {
+  .gray-line{
+    top:60px!important;
+  }
+
+}
+@media screen and (max-width:468px) {
+
+  .pdp-hero-group .pdp-hero .hero-content-box.right-align {
+    padding: 20% 3.7% 10%;
+text-align: right;;
+float: right;
+  }
+  .pdp-hero-group .pdp-hero .hero-content-box.left-align {
+    padding: 20% 3.7% 10%;
+text-align: left;;
+float: left;
+  }
+  .actions-block h4{
+    font-size: 15px;
+  }
+  #subscribe{
+    width: 100%!important;
+  }
+  .gray-line{
+    top:50px!important;
+  }
+
+}
+.actions-block .col-xs-4{
+  padding: 0;
+}
+.actions-block h4{
+  min-height: 50px;
+}
+.icons-block .row{
+  margin: 0 auto;
+   margin-top: 33px;
+
+}
